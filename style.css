@@ -1,0 +1,145 @@
+body {
+              margin: 0px;
+      font-family: "Sirin Stencil", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    "wdth" 100;
+    }
+    .background{
+        background: linear-gradient(135deg, #C9A24A, #1F3A2E);
+        border-radius: 0px 0px 50px 50px;
+    }
+    .header {
+color : #1F3A2E;
+      display : flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 25px 25px 25px 25px;
+      margin: 0px;
+    }
+    .logo{
+padding-left: 35px;
+  width: 200px;
+    }
+    .link a{
+color: black;
+width: 25px;
+padding: 10px 25px 10px 25px;
+text-decoration: none;
+border-radius: 15px;
+font-style:} 
+
+    .link a:hover{
+     background-color: #8A6A2F;
+    }
+    .link button{
+background-color:#E5C76B;
+color :black;
+text-decoration: none;
+border : none;
+padding: 10px 25px 10px 25px;
+border-radius: 15px;
+
+    }
+    .link button:hover{
+        background-color: #81936a;
+    }
+   .cont{
+      display : flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 25px 25px 25px 25px;
+      margin: 0px;
+      border-radius: 0px 0px 35px 35px ;
+      padding-left: 50px;
+    }
+    .img1{
+width: 300px;
+padding: 0px 60px 30px 0px;
+border-radius: 80px 100px 100px 80px;
+filter: drop-shadow(0 0 8px #C9A24A)
+          drop-shadow(0 0 15px rgba(201,162,74,0.5));
+    }
+    .search button:hover{
+background-color: #81936a;
+    }
+    .search button{
+        position: absolute;
+        left: 300px;
+        background-color:#E5C76B;
+color :black;
+text-decoration: none;
+border : none;
+padding: 10px 25px 10px 25px;
+border-radius: 25px;
+height: 50px;
+    }
+    .search input{
+        width: 300px;
+        height: 50px;
+border-radius: 25px;
+background: #1F3A2E;
+  color: #E5C76B;
+   outline: none;
+   border:none;
+  font-size: 15px;
+   font-family: "Sirin Stencil", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  transition: all 0.3s ease;
+     padding: 0px 20px ;
+    }
+    .search input::placeholder{
+        color:#E5C76B;
+    }
+    .font{
+        color:#1F3A2E;
+    }
+    .search input:focus {
+  border-color: #E5C76B;
+  box-shadow: 0 0 10px rgba(201,162,74,0.5);
+  background: #1A1A1D;
+}
+.grid{
+display: flex;
+grid-template-columns: auto auto auto;
+      justify-content: space-between;
+       align-items: center;
+  padding: 50px 100px 50px 120px;
+}
+.grid button{
+    padding: 20px;
+border-radius: 40px;
+background-color: #E5C76B ;
+transition: all 0.5s ease;
+       font-family: "Sirin Stencil", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.grid button:hover{
+transform: translateY(+15px);
+
+}
+.grid2{
+display: flex;
+grid-template-columns: auto auto auto;
+      justify-content: space-between;
+       align-items: center;
+padding: 20px 120px 35px 120px;
+}
+.grid2 img{
+  width: 200px;
+  border-radius: 40px;
+}
+.transition{
+    padding: 20px;
+    border-radius: 40px;
+  transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+
+
+}
+.transition:hover{
+            background: linear-gradient(135deg, #C9A24A, #1F3A2E);
+      transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
